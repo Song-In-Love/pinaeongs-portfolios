@@ -16,10 +16,11 @@
 희망 직군 : **Unity3d 게임 클라이언트 개발자**
 
 ----------
+----------
 
 # 목차
 
-| 타이틀 | 개발 | 제작기간 | 플레이 환경 |  카테고리 | 비고 
+| 타이틀 | 개발환경 | 제작기간 | 플레이 환경 |  카테고리 | 비고 
 | ---- | ---- | --- | ---- | ---- | ---- 
 | [유니티 슈터](#유니티-슈터) | Unity 3D, C# | 2주 | Window, Android | FPS | Unity 3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
 | [갓크소울](#갓크소울) | C | 3일 | Console | Dos RPG | 머드게임 
@@ -35,16 +36,19 @@
 - **주요 작업 목록** : 완성도에 가장 많이 기여한 작업, 가장 어려웠던 작업, 그리고 가장 오래 걸렸던 작업을 3가지씩 선별 후 분류. 순위에서 밀려난 내용은 제외함.
 
 ---------
+---------
+
 # 유니티 슈터
 
-### 플레이해보기 
-[SpaceShooterUnityChan_(for Window).zip(52MB)](https://drive.google.com/file/d/1t7QU2IXR2Jri65ziDTloHT34cgnVfQKO) - (전체화면 해상도 플레이 권장) 
-[SpaceShooterUnityChan.apk(51MB)](https://drive.google.com/open?id=1NFBMbCH-Ee_4T5q2HKA0Q-IFbq7ibfGi)
+### 게임 다운로드 
+- [SpaceShooterUnityChan_(for Window).zip(52MB)](https://drive.google.com/file/d/1t7QU2IXR2Jri65ziDTloHT34cgnVfQKO) - (전체화면 해상도 플레이 권장) 
+
+- [SpaceShooterUnityChan.apk(51MB)](https://drive.google.com/open?id=1NFBMbCH-Ee_4T5q2HKA0Q-IFbq7ibfGi)
 
 
 | 타이틀 | 개발환경 | 제작기간 | 플레이 환경 |  카테고리 | 비고 
 | ---- | ---- | --- | ---- | ---- | ---- 
-| [유니티 슈터] (#유니티-슈터) | Unity3D, C# | 2주 | Window, Android | FPS | Unity3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
+| [유니티 슈터](#유니티-슈터) | Unity3D, C# | 2주 | Window, Android | FPS | Unity3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
 
 
 ### 활용 기술/기법
@@ -73,7 +77,7 @@
 
 [플레이 해보기](https://github.com/Song-In-Love) ***실행이 안될 때는 [이슈](https://github.com/Song-In-Love)로 알려주세요*
 
-| 타이틀 | 개발 | 제작기간 | 플레이 환경 |  카테고리 | 비고 
+| 타이틀 | 개발환경 | 제작기간 | 플레이 환경 |  카테고리 | 비고 
 | ---- | ---- | --- | ---- | ---- | ---- 
 | [도스감성 격투게임](#도스감성-격투게임) | C | 3일 | Console | Dos 대전 | C 첫 작품, 머드게임 
 
