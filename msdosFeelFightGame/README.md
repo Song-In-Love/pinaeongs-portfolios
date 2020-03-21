@@ -11,7 +11,7 @@
 >프로그래밍을 처음 접하고 일주일 뒤에 만든 게임입니다.  
 >가장 원초적인 그래픽 인터페이스인 텍스트 출력과 C의 기본 구문들을 사용해서 제작하였습니다.  
 
-![도스감성 격투게임 플레이 화면](imgForPortfolio/msdosfeel.gif)  
+![도스감성 격투게임 플레이 화면](msdosfeel.gif)  
 *몰입감은 당신이 예상하는 DOS의 그것과 차원이 다르다. - 파인애옹*
 
 ### 게임 다운로드 
@@ -58,7 +58,7 @@ case 2: //젤리피일때
 
 
 
-[◀ 목차로 돌아가기](/Song-In-Love/pinaeongs-portfolios/blob/master/README.md) 
+[◀ 목차로 돌아가기](../README.md) 
 
 
 ----------
