@@ -44,7 +44,7 @@
 | 소요시간 |  |  |  |
 
 
-[◀ 목차로 돌아가기](../README.md) 
+[◀ 목차로 돌아가기](https://github.com/Song-In-Love/pinaeongs-portfolios/blob/master/README.md#목차)
 
 
 ----------
