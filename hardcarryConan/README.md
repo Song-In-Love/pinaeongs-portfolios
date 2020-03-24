@@ -22,20 +22,108 @@
 ### 게임 다운로드
 * (준비중)
 
-
-### 활용 기술/기법
+### 활용 기술
 1. STL Vector
 2. Iterator
-3. 블록의 매치 검사
-4. 블록의 이동
+
+### 주요 기능
+![클래스 구조 이미지](class_struct.png)
+
+1. 블록의 객체화  
+- 각각의 블록들은 스스로 이동한다. 블록들은 현재 좌표, 이동 목표 좌표를 가지고 있어서, 서로 일치하지 않으면 이동한다. 그리고 그 블럭들은 움직이는 중에는 선택되지 않으며 삭제되지 않는다.  
+```C++
+	POINT nowCoordinate;		//현재 좌표
+	POINT goalIndex;			//이동목표 좌표
+	POINT tempGoal;
+	bool shouldChangeBackGoalIndex;
+```
+```C++
+
+void Block::move()
+{
+	if (shouldChangeBackGoalIndex)
+	{
+		moveTo(tempGoal);
+	}
+	else if (!shouldChangeBackGoalIndex)
+	{
+		moveTo(goalIndex);
+	}
+}
+
+```
+
+```C++
+void Block::validateToNeedMove(POINT nowCoordinate, POINT _goalCoordinate)
+{
+	POINT goalCoordinate;
+	goalCoordinate.x = changeIndexToCoordinate(_goalCoordinate.x, COL);
+	goalCoordinate.y = changeIndexToCoordinate(_goalCoordinate.y, LOW);
+
+	if ((nowCoordinate.x == goalCoordinate.x) &&
+		(nowCoordinate.y == goalCoordinate.y))
+	{ 
+		inMoving = false; 
+	}
+	else if ((nowCoordinate.x != goalCoordinate.x) || (nowCoordinate.y != goalCoordinate.y))
+	{ 
+		inMoving = true;
+	}
+	else
+	{
+		//shouldBeMoved = true; 
+		inMoving = true;
+	}
+}
+```
+2. 블록 매치 검사  
+- 블록들은 update()에서 움직임의 상태에 대해 Board에 정보를 전달하고, Board는 블록들의 신호로 매치검사의 플래그가 되는 Bool값을 수정한다.
+```C++
+void Block::checkCall()
+{
+	if (inMoving)
+	{
+		board->shouldCheck(false);
+	}
+	else
+	{
+		board->shouldCheck(true);
+	}
+}
+```
+
+3. 매치된 블록 삭제
+- 보드 안의 모든 블록이 멈춰있는 상태면, 블록들의 매치 정보를 초기화 하고 검사와 삭제를 진행한다.
+```C++
+void BlockBoard::tryToValidateForMatch()
+{
+	if (hasStopped)
+	{ 	
+		//체크 전 초기화
+		changeMatchStateToFalseON();
+
+		//가로 검사
+		validateToMatch(DOWN);
+		validateToMatch(RIGHT);
+
+		if (GetTickCount64() % 10 == 0)
+		{
+			deleteMatchedBlock();
+		}
+	}
+}
+```
 
 
-###  주요 작업 목록
-|  | ★★★ | ★★ | ★ | 
-|---- | ---- | ---- | ---- |
-| 기여도 |  |  |   |
-| 난이도 |  |  |   |
-| 소요시간 |  |  |  |
+4. 블록의 교환 방법
+- 슬라이드 / 클릭, 두 가지의 방법으로 블록을 교환 할 수 있도록 하기 위해, 마우스 버튼 동작 기준으로 함수를 나누어 처리함
+![블록 선택 방법 이미지](selectBlock.png) 
+
+
+
+
+
+
 
 
 [◀ 목차로 돌아가기](https://github.com/Song-In-Love/pinaeongs-portfolios/blob/master/README.md#목차)

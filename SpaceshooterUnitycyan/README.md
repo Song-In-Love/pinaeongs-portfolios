@@ -22,22 +22,35 @@
 
 - [SpaceShooterUnityChan.apk(51MB)](https://drive.google.com/open?id=1NFBMbCH-Ee_4T5q2HKA0Q-IFbq7ibfGi)
 
-
-###  주요 작업 목록
-|  | ★★★ | ★★ | ★ | 
-|---- | ---- | ---- | ---- |
-| 기여도 | 미니맵 - 플레이어와 주변의 몬스터 위치 보이게 해주기 | 자동발사 - 플레이어가 적을 바라 볼 때 자동으로 총알이 발사됨 | 조이스틱 장착 - 안드로이드 빌드시 케릭터 이동 가능 |
-| 난이도 | (소요시간 ★★★ 과 동일) | (기여도 ★★★과 동일) | (기여도 ★과 동일) |
-| 소요시간 | 모델에 애니메이션 적용 - 기존의 애니메이션 적용 시 캐릭터의 발이 돌아있어서 고치는 방법 찾는데 시간이 오래 걸림, 리깅 문제|  라이트 프로브 적용 및 베이크 - 인게임에서 원하는 조명 색상으로 나오게 하기 | 무기 장착 및 발사 시, 원하는 위치로 총알이 발사되게 Rotation 조절 |
-
-
-### 활용 기술/기법
-1. Asset store Character + Mixamo Animation 으로 신규 메카님 제작 
-2. Blend Tree를 이용한 애니메이터 제작  
+### 주요 기능 및 활용 기술
+1. Asset store Character + Mixamo Animation 으로 신규 메카님 제작 - Blend Tree를 이용
 ![블렌더트리를 이용한 애니메이터 이미지](blendTree.JPG)  
-2. 모바일 플레이를 위한 조이스틱 Asset 적용 및 수정  
-3. Camera Culling Mask 및 Layer 활용한 미니맵  
+2. 안드로이드 및 윈도우 빌드  
+3. 모바일 플레이를 위한 조이스틱 Asset 적용 및 수정  
+- 책의 예제는 PC용으로, 안드로이드 빌드를 위해 실행 환경조건을 주어 입력값을 바꿔 줌
+```C#
+ void Update() {
+        h = Input.GetAxis("Horizontal");
+        v = Input.GetAxis("Vertical");
 
+#if !UNITY_ANDROID || UNITY_EDITOR
+        r = Input.GetAxis("Mouse X");
+#else
+        r = 0;
+#endif
+
+        if (h == 0 && v == 0 )
+        {
+            h = moveStick.Horizontal  * Time.deltaTime * moveSpeed;
+            v = moveStick.Vertical  * Time.deltaTime * moveSpeed;
+        }
+        if(r==0)
+        {
+            r = cameraStick.Horizontal;
+        }
+ ```
+3. Camera Culling Mask 및 Layer 활용한 미니맵  
+- 각 오브젝트의 prefab에 미니맵에 보여줄 이미지를 추가하고 레이어를 지정, Camera culling mask에서 해당 레이어만 보여주도록 설정함.  
 
 *<절대강좌!유니티>의 내용과 크게 다르거나, 없는 내용 위주로 작성했습니다.*
 
