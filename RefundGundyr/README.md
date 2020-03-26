@@ -26,7 +26,7 @@
 >다크소울3의 첫번째 보스, 영웅군다전을 모티브로 제작하였습니다.
 >처음 계획은 3주였지만, 완성도를 높이고 보다 확실한 공부를 위해 7주로 수정, 진행하였습니다.
 
-![환불군다 플레이 이미지](refundgundyr.gif)  
+![환불군다 플레이 이미지](refundgundyrPlay.gif)  
 *이것은 환불하고 싶어도 할 수 없다* 
 
 * [유튜브 제작과정 영상 바로가기](https://www.youtube.com/playlist?list=PLwLVhT_yp_32-EtXwbar1XV_eExhXsAxR)
