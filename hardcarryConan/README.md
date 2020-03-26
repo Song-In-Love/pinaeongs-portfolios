@@ -30,7 +30,9 @@
 ![클래스 구조 이미지](class_struct.png)
 
 1. 블록의 객체화  
-- 각각의 블록들은 스스로 이동한다. 블록들은 현재 좌표, 이동 목표 좌표를 가지고 있어서, 서로 일치하지 않으면 이동한다. 그리고 그 블럭들은 움직이는 중에는 선택되지 않으며 삭제되지 않는다.  
+- 각각의 블록들은 스스로 이동함. 
+- 블록들은 현재 좌표, 이동 목표 좌표를 가지고 있고, 서로 일치하지 않으면 움직임.
+- 블록들은 움직이는 중에는 선택되지 않으며 삭제되지 않음.  
 ```C++
 	POINT nowCoordinate;		//현재 좌표
 	POINT goalIndex;			//이동목표 좌표
@@ -77,7 +79,7 @@ void Block::validateToNeedMove(POINT nowCoordinate, POINT _goalCoordinate)
 }
 ```
 2. 블록 매치 검사  
-- 블록들은 update()에서 움직임의 상태에 대해 Board에 정보를 전달하고, Board는 블록들의 신호로 매치검사의 플래그가 되는 Bool값을 수정한다.
+- 블록들은 update()에서 움직임의 상태에 대해 Board에 정보를 전달하고, Board는 블록들의 신호로 매치검사의 플래그가 되는 Bool값을 수정함.
 ```C++
 void Block::checkCall()
 {
@@ -93,7 +95,7 @@ void Block::checkCall()
 ```
 
 3. 매치된 블록 삭제
-- 보드 안의 모든 블록이 멈춰있는 상태면, 블록들의 매치 정보를 초기화 하고 검사와 삭제를 진행한다.
+- 보드 안의 모든 블록이 멈춰있는 상태면, 블록들의 매치 정보를 초기화 하고 검사와 삭제를 진행함.
 ```C++
 void BlockBoard::tryToValidateForMatch()
 {
@@ -118,6 +120,32 @@ void BlockBoard::tryToValidateForMatch()
 4. 블록의 교환 방법
 - 슬라이드 / 클릭, 두 가지의 방법으로 블록을 교환 할 수 있도록 하기 위해, 마우스 버튼 동작 기준으로 함수를 나누어 처리함
 ![블록 선택 방법 이미지](selectBlock.png) 
+```C++
+void BlockBoard::selectBlock()
+{ 
+	if (!isFirstSelected && !shouldSelectSecond)	//처음블록 선택
+	{
+		firstBlock = selectFirstBlock();
+	}
+	else if (isFirstSelected && shouldSelectSecond)
+	{
+		selectSecondBlockByClick();
+	}
+	else if (isFirstSelected && !shouldSelectSecond)
+	{
+		//선택한 블록에서 keyUp -> 두번째 블록 선택 필요
+		if (PtInRect(&firstBlock->getRect(), _ptMouse) && KEYMANAGER->isOnceKeyUp(VK_LBUTTON))
+		{
+			shouldSelectSecond = true;
+		}
+		//아니면 드래그해서 keyUp -> keyUp한 블록과 비교
+		else
+		{
+			selectSecondBlockBySlide();
+		}
+	}
+}
+```
 
 
 
