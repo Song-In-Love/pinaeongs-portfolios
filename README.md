@@ -35,7 +35,7 @@ sdas
 
 | 타이틀 | 개발환경 | 제작기간 | Platform |  카테고리 | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- 
-| [짭크소울(환불군다)](RefundGundyr/README.md)| Unity 3D, C# | 2개월 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
+| [짭크소울(환불군다)](RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
 | [스페이스 슈터 유니티쨩](SpaceshooterUnitycyan/README.md)| Unity 3D, C# | 2주 | Windows, Android | FPS | Unity 3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
 | [고난탐정 코난](hardcarryConan/README.md)| C++ | 1개월 | Window API | Puzzle| 명탐정 코난 모티브, 쓰리매치 창작 게임
 | [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 
