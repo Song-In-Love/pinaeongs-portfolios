@@ -26,8 +26,8 @@
 >다크소울3의 첫번째 보스, 영웅군다전을 모티브로 제작하였습니다.
 >처음 계획은 3주였지만, 완성도를 높이고 보다 확실한 공부를 위해 7주로 수정, 진행하였습니다.
 
-![환불군다 플레이 이미지](refundgundyrPlay.gif)  
-*이것은 환불하고 싶어도 할 수 없다* 
+![환불군다 플레이 이미지](refundgundyr.gif)  
+*이것은 환불하고 싶어도 할 수 없다. 공짜니까.* 
 
 * [유튜브 제작과정 영상 바로가기](https://www.youtube.com/playlist?list=PLwLVhT_yp_32-EtXwbar1XV_eExhXsAxR)
 * 전체 플레이 영상은 준비중 *  
@@ -77,8 +77,8 @@ private void SetForceFrontView()
        transform.position = Vector3.MoveTowards(transform.position, targetPos + direction * currentDistance, distance);
    }
 ```
-2. Animation Event를 이용한 Collider 제어 및 사운드 재생
-- 특정 애니메이션 구간에서만 Collider활성화를 위해 Event로 함수 호출
+2. Animation Event를 이용한 Collider 제어 및 사운드 재생  
+- 특정 애니메이션 구간에서만 Collider활성화를 위해 Event로 함수 호출  
 ![Animation event 이미지](animation.jpg)  
 ```C#
     public void SetColliderOn()
@@ -91,7 +91,7 @@ private void SetForceFrontView()
 
     }
 ```
-3.StateMachineBehaviour를 이용한 특정 애니메이션 재생 중의 함수 호출
+3. StateMachineBehaviour를 이용한 특정 애니메이션 재생 중의 함수 호출  
 - 플레이어의 이동속도가 걷는 속도보다 빠르면 스테미너를 감소하도록 함. 
 ```C#
 public class RunState : StateMachineBehaviour
@@ -115,7 +115,30 @@ public class RunState : StateMachineBehaviour
     }
 }
 ```
+4. Coroutine을 이용한 이펙트 효과
+- 플레이어의 승리 또는 사망시에 나오는 텍스트 및 이펙트 조절에 Coroutine을 이용.  
+```C#
+    IEnumerator playBackgroundSizeEffect()
+    {
+        float BgScaleY = 0.0f;
 
+        yield return new WaitForSeconds(1);
+
+        BackgroundImg.enabled = true;
+
+        while (BgScaleY < 4f)
+        {
+            BgScaleY += 0.7f * Time.deltaTime;
+            BgScaleY = Mathf.Clamp(BgScaleY, 0, 4);
+            BackgroundImg.rectTransform.localScale = new Vector3(1, BgScaleY);
+
+            yield return new WaitForSeconds(0);
+        }
+
+        isBGScaleOne = true;
+
+    }
+```
 
 [◀ 목차로 돌아가기](https://github.com/Song-In-Love/pinaeongs-portfolios/blob/master/README.md#목차)
 
