@@ -8,7 +8,7 @@ sdas
 -->
 
 
->_열심히 업데이트 중인 미완성 포트폴리오 문서입니다!_  
+>_열심히 업데이트 중인 포트폴리오입니다!_  
 >_모든 링크나 기능, 내용이 제대로 작동하지 않을 수 있습니다!_
  
 
@@ -26,7 +26,7 @@ sdas
 ### 커리어 정보 
 프로그래밍 시작 날짜 : **2019-07-06**  
 희망 직군 : **Unity3d 게임 클라이언트 개발자**
-
+연락처 : pinaeong@gmail.com
 ----------------   
 
 
@@ -38,6 +38,7 @@ sdas
 | [짭크소울(환불군다)](RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
 | [스페이스 슈터 유니티쨩](SpaceshooterUnitycyan/README.md)| Unity 3D, C# | 2주 | Windows, Android | FPS | Unity 3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
 | [고난탐정 코난](hardcarryConan/README.md)| C++ | 1개월 | Window API | Puzzle| 명탐정 코난 모티브, 쓰리매치 창작 게임
+| [지니어스 오브 레전드](GeniusOfLegend/README.md)| C++ | 1주| Window API | RPG | 팀 프로젝트, Wizard of Legend 모작 + ∂ 게임, 맵 충돌처리 및 시나리오 기획, 영상제작 담당
 | [도스감성 격투게임](msdosFeelFightGame/README.md) | C | 3일 | Windows Console | Dos 대전 | C 첫 작품, 머드게임 
  <!--| [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 -->
 
@@ -55,8 +56,6 @@ sdas
 [![귀에 꽃 꼽은 고양이 모습](https://i.imgur.com/74ClGJt.jpg?1) 개발일지는 블로그](https://pinaeong.tistory.com/)
 
 [![Linkedin](https://i.imgur.com/SBTfCsA.png?2) 커리어와 채용문의는 링크드인](https://www.linkedin.com/in/in-ae-song-91a666191/) 
-
-[![Github](https://i.imgur.com/lhD5Xxa.png?1) 오픈소스는 깃헙](https://github.com/Song-In-Love)
 
 [![YouTube](https://i.imgur.com/2tEtlJO.png?1) 포트폴리오 영상은 유튜브에서](https://www.youtube.com/channel/UCAc2-SQgnXv8uRzrZ0t9umQ) 
  

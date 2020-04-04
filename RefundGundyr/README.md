@@ -21,12 +21,12 @@
 
 | 타이틀 | 개발환경 | 제작기간 | Platform |  카테고리 | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- 
-| [짭크소울(환불군다)](RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
+|  짭크소울(환불군다) | Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
 
 >다크소울3의 첫번째 보스, 영웅군다전을 모티브로 제작하였습니다.
 >처음 계획은 3주였지만, 완성도를 높이고 보다 확실한 공부를 위해 7주로 수정, 진행하였습니다.
 
-![환불군다 플레이 이미지](refundgundyr.gif)  
+![환불군다 플레이 이미지](https://imgur.com/KhCm9kj)  
 *이것은 환불하고 싶어도 할 수 없다. 공짜니까.* 
 
 * [유튜브 제작과정 영상 바로가기](https://www.youtube.com/playlist?list=PLwLVhT_yp_32-EtXwbar1XV_eExhXsAxR)
@@ -34,7 +34,7 @@
 
 
 ### 플레이해보기
-* [(준비중)]()
+* [당신은 몇 회차까지 가능합니까](https://drive.google.com/open?id=1LFE3VzmXD24VYFm789BlbCa9dwrUwX-d)
 
 ### 주요 기능 및 활용 기술
 1. 함수를 이용한 카메라 제어와 플레이어 이동  
@@ -67,14 +67,16 @@ private void SetForceFrontView()
 
    else if (playerCtrl.isLockOn)
    {
-       //플레이어와 회전방향이 일치하도록하기
-       rotation = Quaternion.Lerp(transform.rotation, cameraTarget.transform.rotation, 0.6f);
-       targetPos = cameraTarget.position + targetOffset;
-       direction = rotation * - Vector3.forward;
-       float targetDistance = AdjustLineOfSight(targetPos, direction);
-       currentDistance = Mathf.SmoothDamp(currentDistance, targetDistance, ref distanceVelocity, 0.1f);
-       transform.rotation = rotation;
-       transform.position = Vector3.MoveTowards(transform.position, targetPos + direction * currentDistance, distance);
+        Transform cameraTransform = transform;
+        Transform targetTransform = playerCtrl.TargetLockOnPoint.Point.transform;
+        Transform playerTransform = cameraTarget;
+
+        // 1. set position to player's back
+        cameraTransform.position = Vector3.Lerp(cameraTransform.position, LockOnMount.position, Time.deltaTime * LockOnFollowSpeedMultiplier);
+
+        // 2. look at locked on target
+        cameraTransform.LookAt(targetTransform);
+        cameraTransform.Rotate(new Vector3(12.5f, 0, 0)); //시야각 50 ÷ 2(중심) ÷ 2(에서 상단중심) ----> 25%위치에서 보임
    }
 ```
 2. Animation Event를 이용한 Collider 제어 및 사운드 재생  
