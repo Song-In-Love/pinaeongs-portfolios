@@ -13,10 +13,13 @@
 >명탐정코난을 테마로한 쓰리매치게임입니다.  
 >게임에 사용된 블록 이미지와 상단 애니메이션의 이미지는 **직접** 일러스트레이터로 **그렸습니다**.  
 
+* [이미지에 담지 못한 사운가 있는 전체 플레이영상은 이곳에서... ](https://youtu.be/LNK55V9-VbE)  
+
 ![명탐정 코난 모티드 쓰리매치게임 플레이이미지](conan_play.gif)  
 *1분간의 게임에서 느껴지는 숨막히는 추격전.* 
 
-* [이미지에 담지 못한 사운가 있는 전체 플레이영상](https://www.youtube.com/playlist?list=PLwLVhT_yp_30l9Nh_r0i_C7ovwvdltuge)
+
+
 * [이렇게 만들어왔어요](https://www.youtube.com/playlist?list=PLwLVhT_yp_30l9Nh_r0i_C7ovwvdltuge)
 
 ### 게임 다운로드
