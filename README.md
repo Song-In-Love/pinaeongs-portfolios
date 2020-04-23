@@ -43,8 +43,10 @@ sdas
 | [도스감성 격투게임](msdosFeelFightGame/README.md) | C | 3일 | Windows Console | Dos 대전 | C 첫 작품, 머드게임 
  <!--| [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 -->
 
-# 각 작품 설명 순서
-**타이틀**
+
+  
+# 각 링크별 설명 순서  
+**타이틀** (상단에 위치한 작품이 최신작입니다)
 - **개요표**
 - **플레이 이미지 또는 영상링크** : 혹시 오류가 있으면 [Issue](https://github.com/Song-In-Love/pinaeongs-portfolios/issues) 로 알려주세요!
 - **플레이해보기** : 다운로드 링크
