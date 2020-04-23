@@ -19,11 +19,11 @@
 *1분간의 게임에서 느껴지는 숨막히는 추격전.* 
 
 
-
 * [이렇게 만들어왔어요](https://www.youtube.com/playlist?list=PLwLVhT_yp_30l9Nh_r0i_C7ovwvdltuge)
 
+
 ### 게임 다운로드
-* (준비중)
+* [플레이해보기] (Hardcarry Detective Conan.zip) (11.1MB, Windows10 권장)
 
 ### 활용 기술
 1. STL Vector
