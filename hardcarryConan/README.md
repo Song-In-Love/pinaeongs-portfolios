@@ -23,7 +23,7 @@
 
 
 ### 게임 다운로드
-* [플레이해보기](Hardcarry Detective Conan.zip) (11.1MB, Windows10 권장)
+* [플레이해보기](Hardcarry%20Detective%20Conan.zip) (11.1MB, Zip, Windows10 권장)
 
 ### 활용 기술
 1. STL Vector
