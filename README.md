@@ -37,7 +37,6 @@ sdas
  혹시 오류가 있으면 [Issue](https://github.com/Song-In-Love/pinaeongs-portfolios/issues) 로 알려주세요!
 | 타이틀 | 개발환경 | 제작기간 | Platform |  카테고리 | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- 
-<!--| 달려요 슬라임의 숲 | Unity 3D, C# | 3일 | Windows, WebBuild | Action | 오브젝트풀링과 Curved world Shader를 이용한 런게임-->
 | [짭크소울(환불군다)](RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
 | [스페이스 슈터 유니티쨩](SpaceshooterUnitycyan/README.md)| Unity 3D, C# | 2주 | Windows, Android | FPS | Unity 3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
 | [고난탐정 코난](hardcarryConan/README.md)| C++ | 1개월 | Window API | Puzzle| 명탐정 코난 모티브, 쓰리매치 창작 게임
@@ -45,6 +44,8 @@ sdas
 | Hyper Sports - Skeet shooting | C++ | 2일 | Window API | Arcade | Hyper Sports 스키트 사격 모작
 | Hyper Sports - Archery | C++ | 2일 | Window API | Arcade | Hyper Sports 양궁 모작
 | [도스감성 격투게임](msdosFeelFightGame/README.md) | C | 3일 | Windows Console | Dos 대전 | C 첫 작품, 머드게임 
+ 
+<!--| 달려요 슬라임의 숲 | Unity 3D, C# | 3일 | Windows, WebBuild | Action | 오브젝트풀링과 Curved world Shader를 이용한 런게임-->
  <!--| [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 -->
  
 ## 실습용
