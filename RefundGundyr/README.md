@@ -31,7 +31,7 @@
 *이것은 환불하고 싶어도 할 수 없다. 공짜니까.* 
 
 * [유튜브 제작과정 영상 바로가기](https://www.youtube.com/playlist?list=PLwLVhT_yp_32-EtXwbar1XV_eExhXsAxR)
-* 전체 플레이 영상은 준비중 *  
+* [전체 플레이 영상보기](https://youtu.be/28RXbnbM4Mw)  
 
 
 ### 플레이해보기
