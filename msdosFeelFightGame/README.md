@@ -15,7 +15,7 @@
 *몰입감은 당신이 예상하는 DOS의 그것과 차원이 다르다. - 파인애옹*
 
 ### 게임 다운로드 
-* [역사적인 첫 작품](msdosfeelFightGame.exe) (86kb, exe)
+* [역사적인 첫 작품](https://github.com/Song-In-Love/pinaeongs-portfolios/raw/master/msdosFeelFightGame/msdosfeelFightGame.exe) (86kb, exe)
 
 
 ###  주요 작업 목록
