@@ -35,6 +35,8 @@ sdas
 # 목차
 
 ## Brazle (2020. 6 ~ 2022. 3) 
+* 2022-05-03 : 업데이트 중입니다 :)
+
 | 게임명 | 장르 | 출시일 | Platform | 개발기간 | Unity Version | SDK | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- | ----| ----
 | Maze Farm | 퍼즐 | 출시일 | iOS, Android()  | 2개월 |2019.3.15 | Google Ads,<br>Firebase Analytics | Global target
@@ -58,7 +60,8 @@ sdas
 | Hyper Sports - Skeet shooting | C++ | 2일 | Window API | Arcade | Hyper Sports 스키트 사격 모작
 | Hyper Sports - Archery | C++ | 2일 | Window API | Arcade | Hyper Sports 양궁 모작
 | [도스감성 격투게임](Study/msdosFeelFightGame/README.md) | C | 3일 | Windows Console | Dos 대전 | C 첫 작품, 머드게임 
- 
+| 달려요 슬라임의 숲 | Unity 3D, C# | 3일 | Windows, WebBuild | Action | 오브젝트풀링과 Curved world Shader를 이용한 런게임
+
 <!--| 달려요 슬라임의 숲 | Unity 3D, C# | 3일 | Windows, WebBuild | Action | 오브젝트풀링과 Curved world Shader를 이용한 런게임-->
  <!--| [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 -->
  
