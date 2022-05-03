@@ -33,22 +33,36 @@ sdas
 
 
 # 목차
-## 게임
+
+## Brazle (2020. 6 ~ 2022. 3)
+| 게임명 | 장르 | 출시일 | Platform | 개발기간 | Unity Version | SDK | 비고 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- 
+| Maze Farm | 퍼즐 | | 출시일 | iOS, Android()  | 개발기간 | Unity Version | SDK | 비고 |
+| Paint Maze | 퍼즐 | | 출시일 | iOS, Android() | 개발기간 | Unity Version | SDK | 비고 |
+| Merge All! | 퍼즐 | 2020. 9. 21. | iOS(), [Android](https://play.google.com/store/apps/details?id=com.Brazle.MakeNumber)  | 개발기간 | Unity Version | SDK | 비고 |
+| Merge Cat : 고양이가 머지 |장르| | 2020. 10. 14. | iOS(), [Android](https://play.google.com/store/apps/details?id=com.Brazle.CatMerge)  | 개발기간 | Unity Version | SDK | 비고 |
+| 몬스터 레스토랑 | 방치형, 머지 | 2021. 2. 25. | [iOS](), [Android](https://play.google.com/store/apps/details?id=com.Brazle.MonsterRestaurant)  | 개발기간 | Unity Version | SDK | 비고 |
+| 펭월드 : 동물친구들의 놀이공원 | 시뮬레이션 | | 출시일 | [Android](https://play.google.com/store/apps/details?id=com.brazle.pengworld.aos)  | 개발기간 | Unity Version | SDK | 비고 |
+| 마총사 키우기 | 방치형 RPG | | 2021. 11. 29. | [Android](https://play.google.com/store/apps/details?id=com.brazle.hextechgirl.aos)  | 개발기간 | Unity Version | SDK | 비고 |
+
+
+
+## 실습용(1)
  혹시 오류가 있으면 [Issue](https://github.com/Song-In-Love/pinaeongs-portfolios/issues) 로 알려주세요!
 | 타이틀 | 개발환경 | 제작기간 | Platform |  카테고리 | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- 
-| [짭크소울(환불군다)](RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
-| [스페이스 슈터 유니티쨩](SpaceshooterUnitycyan/README.md)| Unity 3D, C# | 2주 | Windows, Android | FPS | Unity 3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
-| [고난탐정 코난](hardcarryConan/README.md)| C++ | 1개월 | Window API | Puzzle| 명탐정 코난 모티브, 쓰리매치 창작 게임
-| [지니어스 오브 레전드](GeniusOfLegend/README.md)| C++ | 1주| Window API | RPG | 팀 프로젝트, Wizard of Legend 모작 + ∂ 게임, 맵 충돌처리 및 시나리오 기획, 영상제작 담당
+| [짭크소울(환불군다)](Study/RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
+| [스페이스 슈터 유니티쨩](Study/SpaceshooterUnitycyan/README.md)| Unity 3D, C# | 2주 | Windows, Android | FPS | Unity 3D 첫 작품, <절대강좌!유니티> 예제 어레인지 
+| [고난탐정 코난](Study/hardcarryConan/README.md)| C++ | 1개월 | Window API | Puzzle| 명탐정 코난 모티브, 쓰리매치 창작 게임
+| [지니어스 오브 레전드](Study/GeniusOfLegend/README.md)| C++ | 1주| Window API | RPG | 팀 프로젝트, Wizard of Legend 모작 + ∂ 게임, 맵 충돌처리 및 시나리오 기획, 영상제작 담당
 | Hyper Sports - Skeet shooting | C++ | 2일 | Window API | Arcade | Hyper Sports 스키트 사격 모작
 | Hyper Sports - Archery | C++ | 2일 | Window API | Arcade | Hyper Sports 양궁 모작
-| [도스감성 격투게임](msdosFeelFightGame/README.md) | C | 3일 | Windows Console | Dos 대전 | C 첫 작품, 머드게임 
+| [도스감성 격투게임](Study/msdosFeelFightGame/README.md) | C | 3일 | Windows Console | Dos 대전 | C 첫 작품, 머드게임 
  
 <!--| 달려요 슬라임의 숲 | Unity 3D, C# | 3일 | Windows, WebBuild | Action | 오브젝트풀링과 Curved world Shader를 이용한 런게임-->
  <!--| [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 -->
  
-## 실습용
+## 실습용(2)
 | 주제 | 개발환경 | 비고 |
 |----|----|----|
 | 미로생성 및 탐색 | Unity 3D, C# | Depth-first search 기반으로 한 미로생성 및 길찾기
