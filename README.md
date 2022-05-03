@@ -37,13 +37,13 @@ sdas
 ## Brazle (2020. 6 ~ 2022. 3) 
 | 게임명 | 장르 | 출시일 | Platform | 개발기간 | Unity Version | SDK | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- | ----| ----
-| Maze Farm | 퍼즐 | | 출시일 | iOS, Android()  | 개발기간 | 2019.3.15 | Google Ads,  #Firebase Analytics | 비고
-| Paint Maze | 퍼즐 | | 출시일 | iOS, Android() | 개발기간 | 2019.3.15 | Google Ads,  #Firebase Analytics| 비고 
-| Merge All! | 퍼즐 | 2020. 9. 21. | iOS(), [Android](https://play.google.com/store/apps/details?id=com.Brazle.MakeNumber)  | 개발기간 | Unity Version | SDK | 비고 
-| Merge Cat : 고양이가 머지 |장르| 2020. 10. 14. | iOS(), [Android](https://play.google.com/store/apps/details?id=com.Brazle.CatMerge)  | 개발기간 | Unity Version | SDK | 비고 
-| 몬스터 레스토랑 | 방치형, 머지 | 2021. 2. 25. | [iOS](), [Android](https://play.google.com/store/apps/details?id=com.Brazle.MonsterRestaurant)  | 개발기간 | Unity Version | SDK | 비고 
-| 펭월드 : 동물친구들의 놀이공원 | 시뮬레이션 | 출시일 | [Android](https://play.google.com/store/apps/details?id=com.brazle.pengworld.aos)  | 개발기간 | Unity Version | SDK | 비고 
-| 마총사 키우기 | 방치형 RPG | 2021. 11. 29. | [Android](https://play.google.com/store/apps/details?id=com.brazle.hextechgirl.aos)  | 개발기간 | Unity Version | SDK | 비고 
+| Maze Farm | 퍼즐 | | 출시일 | iOS, Android()  | 개발기간 | 2019.3.15 | Google Ads,  Firebase Analytics | 비고
+| Paint Maze | 퍼즐 | | 출시일 | iOS, Android() | 개발기간 | 2019.3.15 | Google Ads,  Firebase Analytics | 비고 
+| Merge All! | 퍼즐 | 2020. 9. 21. | iOS(), [Android](https://play.google.com/store/apps/details?id=com.Brazle.MakeNumber)  | 개발기간 | Unity Version | Google Ads,  Firebase Analytics  | 비고 
+| Merge Cat : 고양이가 머지 |장르| 2020. 10. 14. | iOS(), [Android](https://play.google.com/store/apps/details?id=com.Brazle.CatMerge)  | 개발기간 | Unity Version | Google Ads,  Firebase Analytics  | 비고 
+| 몬스터 레스토랑 | 방치형, 머지 | 2021. 2. 25. | [iOS](), [Android](https://play.google.com/store/apps/details?id=com.Brazle.MonsterRestaurant)  | 개발기간 | Unity Version | Google Ads,  Firebase Analytics  | 비고 
+| 펭월드 : 동물친구들의 놀이공원 | 시뮬레이션 | 출시일 | [Android](https://play.google.com/store/apps/details?id=com.brazle.pengworld.aos)  | 개발기간 | Unity Version |  Firebase Analytics etc| 비고 
+| 마총사 키우기 | 방치형 RPG | 2021. 11. 29. | [Android](https://play.google.com/store/apps/details?id=com.brazle.hextechgirl.aos)  | 개발기간 | Unity Version | Facebook Sdk,  Play Games Services,  PlayFab,  Game Chat,  Firebase Analytics etc | 비고 
 
 
 
