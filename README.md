@@ -25,11 +25,12 @@ sdas
 
 * 2022.4 ~ : Fundamental 역량을 증가시키고자 [Coursera](https://www.coursera.org/user/cc07a2e58f24e37b281637d005a3cefd)에서 컴퓨터전공 교과과정 수강중입니다 :)
 
-| 과정명 | 주관 | 완료일 |
-| Object-Oriented Data Structures in C++ | University of Illinois at Urbana-Champaign | 2022-07 |
-| English for Science, Technology, Engineering, and Mathematics | University of Pennsylvania | 2022-06 |
-| Mathematical Thinking in Computer Science | University of California San Diego | 2020-05 |
-| Introduction to C# Programming and Unity | University of Colorado System | 2020-04 |
+| 과정명 | 주관 | 완료일 
+|----|----|----
+| Object-Oriented Data Structures in C++ | University of Illinois at Urbana-Champaign | 2022-07 
+| English for Science, Technology, Engineering, and Mathematics | University of Pennsylvania | 2022-06 
+| Mathematical Thinking in Computer Science | University of California San Diego | 2020-05 
+| Introduction to C# Programming and Unity | University of Colorado System | 2020-04 
 
 ### 커리어 정보 
 프로그래밍 시작 날짜 : **2019-07-06**  
