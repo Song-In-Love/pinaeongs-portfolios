@@ -94,7 +94,7 @@
 ```
 * 출력화면  
   ![출력화면](insert_debug.png)  
-*붉은색 사각형은 결과 도출 과정을 보기 위한 코드입니다* 
+*붉은색 사각형은 결과 도출 과정을 보기 위해 추가된 부분입니다* 
  
  
   
@@ -155,7 +155,7 @@
 ```
 * 출력화면  
   ![출력화면](merge_debug.png)  
-*붉은색 사각형은 결과 도출 과정을 보기 위한 코드입니다* 
+*붉은색 사각형은 결과 도출 과정을 보기 위해 추가된 부분입니다* 
 
 
 [◀ 목차로 돌아가기](https://github.com/Song-In-Love/pinaeongs-portfolios/blob/master/README.md#coursera-%EC%8B%A4%EC%8A%B5-%EA%B3%BC%EC%A0%9C)
