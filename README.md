@@ -33,12 +33,12 @@ sdas
 * 2020.6 ~ 2022.3 : Brazle에서 Andorid, iOS 용 게임 제작 (Unity활용, 기획-개발-아트 3인팀의 개발 담당)
 * 2022.4 ~ : Fundamental 역량을 증가시키고자 [Coursera](https://www.coursera.org/user/cc07a2e58f24e37b281637d005a3cefd)에서 컴퓨터전공 교과과정 수강중입니다 :)
 
-| 과정명 | 주관 | 완료일 
+| 과정명 | 주관 | 과정 기간 | 
 |----|----|----
-| Object-Oriented Data Structures in C++ | University of Illinois at Urbana-Champaign | 2022-07 
-| English for Science, Technology, Engineering, and Mathematics | University of Pennsylvania | 2022-06 
-| Mathematical Thinking in Computer Science | University of California San Diego | 2020-05 
-| Introduction to C# Programming and Unity | University of Colorado System | 2020-04 
+| [Object-Oriented Data Structures in C++](https://www.coursera.org/learn/cs-fundamentals-1) | University of Illinois at Urbana-Champaign | 4 주
+| [English for Science, Technology, Engineering, and Mathematics](https://www.coursera.org/learn/stem) | University of Pennsylvania | 5 주
+| [Mathematical Thinking in Computer Science](https://www.coursera.org/learn/what-is-a-proof) | University of California San Diego | 6 주
+| [Introduction to C# Programming and Unity](https://www.coursera.org/learn/introduction-programming-unity) | University of Colorado System | 5 주
 
 -------   
 
@@ -63,6 +63,7 @@ sdas
 
 ## 실습용(1)
  혹시 오류가 있으면 [Issue](https://github.com/Song-In-Love/pinaeongs-portfolios/issues) 로 알려주세요!
+
 | 타이틀 | 개발환경 | 제작기간 | Platform |  카테고리 | 비고 
 | ---- | ---- | ---- | ---- | ---- | ---- 
 | [짭크소울(환불군다)](Study/RefundGundyr/README.md)| Unity 3D, C# | 7주 | Windows | RPG | DarkSouls3 첫번째 보스전을 모티브로 제작 
@@ -78,8 +79,9 @@ sdas
  <!--| [갓크소울](GodkSouls/README.md) | C | 3일 | Windows Console | Dos RPG | 머드게임 -->
  
 ## Coursera 실습 과제
-| 수업명 | 과제 내용 | 코드 및 문제 해결|
-|
+| 수업명 | 과제 내용 
+|----|----
+| Object-Oriented Data Structures in C++ |  [Linked Lists 의 정렬삽입, 병합](Study/Coursera/LinkedList/README.md)
 
 ## 실습용(2)
 | 주제 | 개발환경 | 비고 |
