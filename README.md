@@ -23,6 +23,14 @@ sdas
 간단한 연습 게임을 만들더라도 사람들이 플레이할 수 있게 끝까지 완성하려고 노력합니다.   
 매일 매일 성장하고 있습니다. 피드백과 응원 항상 감사드립니다.
 
+
+### 커리어 정보 
+프로그래밍 시작 날짜 : **2019-07-06**  
+희망 직군 : **Unity3d 게임 클라이언트 개발자**  
+연락처 : pinaeong@gmail.com
+
+
+* 2020. 6 ~ 2022. 3 : Brazle에서 Andorid, iOS 용 게임 제작 (Unity활용, 기획-개발-아트 3인팀의 개발 담당)
 * 2022.4 ~ : Fundamental 역량을 증가시키고자 [Coursera](https://www.coursera.org/user/cc07a2e58f24e37b281637d005a3cefd)에서 컴퓨터전공 교과과정 수강중입니다 :)
 
 | 과정명 | 주관 | 완료일 
@@ -31,11 +39,6 @@ sdas
 | English for Science, Technology, Engineering, and Mathematics | University of Pennsylvania | 2022-06 
 | Mathematical Thinking in Computer Science | University of California San Diego | 2020-05 
 | Introduction to C# Programming and Unity | University of Colorado System | 2020-04 
-
-### 커리어 정보 
-프로그래밍 시작 날짜 : **2019-07-06**  
-희망 직군 : **Unity3d 게임 클라이언트 개발자**  
-연락처 : pinaeong@gmail.com
 
 -------   
 
