@@ -30,7 +30,7 @@ sdas
 연락처 : pinaeong@gmail.com
 
 
-* 2020. 6 ~ 2022. 3 : Brazle에서 Andorid, iOS 용 게임 제작 (Unity활용, 기획-개발-아트 3인팀의 개발 담당)
+* 2020.6 ~ 2022.3 : Brazle에서 Andorid, iOS 용 게임 제작 (Unity활용, 기획-개발-아트 3인팀의 개발 담당)
 * 2022.4 ~ : Fundamental 역량을 증가시키고자 [Coursera](https://www.coursera.org/user/cc07a2e58f24e37b281637d005a3cefd)에서 컴퓨터전공 교과과정 수강중입니다 :)
 
 | 과정명 | 주관 | 완료일 
