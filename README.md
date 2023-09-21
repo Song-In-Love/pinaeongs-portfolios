@@ -30,9 +30,13 @@ sdas
 연락처 : pinaeong@gmail.com
 
 
-* 2020.6 ~ 2022.3 : Brazle에서 Andorid, iOS 용 게임 제작 (Unity활용, 기획-개발-아트 3인팀의 개발 담당)
-* 2022.4 ~ : Fundamental 역량을 증가시키고자 [Coursera](https://www.coursera.org/user/cc07a2e58f24e37b281637d005a3cefd)에서 컴퓨터전공 교과과정 수강중입니다 :)
+* 2020.6 ~ 2022.3 : Brazle에서 Android, iOS 용 게임 제작 (Unity활용, 기획-개발-아트 3인팀의 개발 담당)
+* 2022.4 ~ 2022.9 : Fundamental 역량을 증가시키고자 [Coursera](https://www.coursera.org/user/cc07a2e58f24e37b281637d005a3cefd)에서 컴퓨터전공 교과과정 수강중입니다 :)
+* 2022.8 ~ 2022.11 : Emotiv에서 제작중인 게임에 필요한 iOS, Android 앱 모듈 제작 (Unity및 swift 활용,Addressable, Social Login etc.)
+* 2023.1 ~ 2023.3 : 3인 게임 프로젝트, 프로토타입 앱 제작
+* 2023.7 ~ : Anifox에서 Android, iOS용 게임 제작 진행 중 :)
 
+  
 | 과정명 | 주관 | 과정 기간 | 
 |----|----|----
 | [Object-Oriented Data Structures in C++](https://www.coursera.org/learn/cs-fundamentals-1) | University of Illinois at Urbana-Champaign | 4 주
